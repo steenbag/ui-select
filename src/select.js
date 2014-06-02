@@ -141,7 +141,7 @@ angular.module('ui.select', [])
       // Give it time to appear before focus
       $timeout(function() {
         _searchInput[0].focus();
-      });
+      }, 10);
     }
   };
 
